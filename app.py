@@ -96,4 +96,4 @@ def read_root():
 
 # Entry point for running the app
 if __name__ == "__main__":
-    uvicorn.run("your_module_name:app", host="127.0.0.1", port=8000, reload=True)
+    uvicorn.run("app:app", host="127.0.0.1", port=8000, reload=True)
